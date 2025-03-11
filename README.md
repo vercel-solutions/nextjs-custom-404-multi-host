@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This example shows how to do a custom 404 page in Next.js that can be personalized based on the `host`.
 
 ## Getting Started
 
@@ -16,9 +16,14 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To test the 404, visit any page other than `/`. The 404 will show the host in its HTML.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+You can visit the following URLs to see the example in action:
+
+- https://nextjs-custom-404-multi-host.vercel.app/unknown
+- https://nextjs-custom-404-multi-host-a.vercel.app/unknown
+- https://nextjs-custom-404-multi-host-b.vercel.app/unknown
+
 
 ## Learn More
 
